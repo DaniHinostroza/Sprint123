@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    min-height: 20px;
+}
+
+main{
+    min-height: 70px;
+}
+
+footer{
+    min-height: 10px;
+}
+
+#caja{
+    background-color: rgb(158, 107, 178);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#caja>img{
+    border-radius: 40px;
+    width: 300px;
+    left: 300px;
+    border: 4px solid rgb(91, 55, 94);
+}
+
+.nav{
+    background-color: rgb(220, 156, 199);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: underline;
+    text-decoration: none;
+
+    position: static;
+}
+
+.nav ul{
+    color: black;
+    padding: 10px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    color: rgb(11, 11, 11);
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav a:hover{
+    color: white;
+    background-color:rgb(91, 55, 94);
+    border-radius: 30px;
+}
+
+#bienvenida{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.producto{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.producto>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.categoria{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.categoria>img{
+    width: 300px;
+    height: 300px;
+}
+
+.nosotros{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.trabajadores{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.trabajador{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.trabajador>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+.valores{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.valores>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.productos{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.categoria1{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+.beneficio{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+
+dl {
+    display: flex;
+}
+
+ul , ol{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+ul ul {
+    margin-left: 20px;
+    font-weight: normal;
+}
