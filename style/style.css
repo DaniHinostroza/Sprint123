@@ -18,27 +18,30 @@ footer{
 
 #caja{
     background-color: rgb(158, 107, 178);
-    text-align: center;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid black;
 }
 
 #caja>img{
     border-radius: 40px;
-    width: 300px;
-    left: 300px;
+    width: 100px;
+    left: 100px;
     border: 4px solid rgb(91, 55, 94);
+}
+
+h1{
+    text-align: center;
+    unicode-bidi: isolate;
+    padding: 10px;
 }
 
 .nav{
     background-color: rgb(220, 156, 199);
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid black;
     text-decoration: underline;
     text-decoration: none;
-
-    position: static;
 }
 
 .nav ul{
@@ -62,6 +65,7 @@ footer{
     color: white;
     background-color:rgb(91, 55, 94);
     border-radius: 30px;
+    position: static;
 }
 
 #bienvenida{
@@ -72,20 +76,47 @@ footer{
     margin: 5px;
 }
 
+.productos{
+    background-color: rgb(199, 169, 204);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
 .producto{
     background-color: rgb(245, 221, 249);
     padding: 20px;
     border: 1px solid black;
-    margin: 5px;
+    margin: 10px;
+
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+
+    width: 450px;
+    height: 310px;
+}
+
+.producto>a{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 .producto>img{
     width: 150px;
     height: 150px;
     border-radius: 40px;
+}
 
-    display: inline-block;
-    text-align: center;
+.producto>p{
+    margin: 10px;
 }
 
 .categoria{
@@ -93,10 +124,20 @@ footer{
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
+    text-align: center;
 }
 
 .categoria>img{
     width: 300px;
+    height: 300px;
+}
+
+.cate{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+
+    width: 350px;
     height: 300px;
 }
 
@@ -105,6 +146,11 @@ footer{
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
+    text-align: center;
+}
+
+.nos{
+    text-align: start;
 }
 
 .trabajadores{
@@ -112,6 +158,7 @@ footer{
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
+    text-align: center;
 }
 
 .trabajador{
@@ -119,6 +166,13 @@ footer{
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
+
+    display: flex;
+    display: inline-block;
+    text-align: center;
+
+    width: 350px;
+    height: 310px;
 }
 
 .trabajador>img{
@@ -128,45 +182,101 @@ footer{
 }
 
 .valores{
-    background-color: rgb(199, 169, 204);
+    background-color: rgb(245, 221, 249);
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
+    text-align: center;
 }
 
 .valores>img{
     width: 150px;
     height: 150px;
     border-radius: 40px;
+    text-align: center;
 }
 
-.productos{
-    background-color: rgb(199, 169, 204);
-    padding: 10px;
-    border: 1px solid black;
-    text-align: center;
-    margin: 5px;
+.valor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
+
+
+
+
+
 
 
 .categoria1{
     background-color: rgb(199, 169, 204);
     padding: 10px;
     border: 1px solid black;
-    text-align: center;
-    margin: 5px;
+    margin: 10px;
+    flex-direction: column;
+    width: 25%;
 }
+
+.productos1{
+    background-color: rgb(199, 169, 204);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+    flex-direction: row-reverse;
+    text-align: center;
+    top: 30px;
+}
+
+.producto1{
+    background-color: rgb(245, 221, 249);
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+
+    width: 400px;
+    height: 350px;
+}
+
+.producto1>a{
+    text-decoration: none;
+    background-color: black;
+    padding: 8px;
+    color: rgb(234, 234, 234);
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.producto1>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+
+.producto1>p{
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+
 
 .beneficio{
     background-color: rgb(199, 169, 204);
     padding: 10px;
     border: 1px solid black;
     text-align: center;
-    margin: 5px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
 }
-
-
-
 
 dl {
     display: flex;
@@ -177,25 +287,35 @@ ul , ol{
     padding: 10px;
 }
 
-
-
 table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
+
 table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 2%;
     text-align: center;
 }
+
+.bene{
+    background-color: rgb(245, 221, 249);
+}
+
+
+.inicio{
+    background-color: rgb(91, 55, 94);
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
 ul{
     list-style-type: none;
     padding: 20px;
-}
-ul li {
-    margin-bottom: 10px;
 }
 
 ul ul {
